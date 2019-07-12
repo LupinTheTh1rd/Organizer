@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">HomePage</string>
+    <string name="main_name">Organizer</string>
+
+    <string name="splash_header">Organizer</string>
+    <string name="splash_header_description">Conference Hall Booking App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Organizer</string>
+    <string name="nav_header_subtitle">Email-Id</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_book">Book a Hall</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="submit">Submit</string>
+    <string name="director">Director</string>
+    <string name="admin">Admin</string>
+
+    <string name="book_header">Please select the conference room you want to book.</string>
+    <string name="book_room_1">Meeting Room</string>
+    <string name="book_room_2">Conference Room</string>
+    <string name="book_btn">Book</string>
+
+    <string name="menu_view">View Bookings</string>
+
+    <string name="label_company">Company: </string>
+    <string name="label_purpose">Purpose :</string>
+    <string name="label_name">Name :</string>
+    <string name="details_header">Enter Details</string>
+    <string name="label_mobile_no">Mobile No. :</string>
+    <string name="placeholder_name">Full Name</string>
+    <string name="placeholder_company">Company Name</string>
+    <string name="placeholder_mobile_no">10 digit mobile number</string>
+    <string name="placeholder_purpose">Brief about the purpose \n(max. 50char)</string>
+    <string name="label_room">Room :</string>
+    <string name="room_1">Meeting Room</string>
+    <string name="room_2">Conference Room</string>
+    <string name="details_submit">Proceed</string>
+    <string name="action_logout">Logout</string>
+    <string name="verify_label">Enter Pin</string>
+    <string name="verify_btn">Verify</string>
+    <string name="verify_resend"><u>Resend OTP</u></string>
+
+    <string name="pick_time_select">Select Time</string>
+    <string name="pick_time_header">Enter the timings.</string>
+    <string name="pick_time_label_from">From :</string>
+    <string name="pick_time_label_to">To :</string>
+    <string name="pick_time_date">Select Date</string>
+    <string name="pick_time_validate">Book</string>
+    <string name="pick_time_label_date">Date:</string>
+    <string name="label_timing">Timings:</string>
+    <string name="dumm_timings">--slot--</string>
+    <string name="action_data">Get Data!</string>
+    <string name="menu_register">Register an account</string>
+    <string name="acc_login">Login</string>
+    <string name="acc_register">Register</string>
+
+</resources>

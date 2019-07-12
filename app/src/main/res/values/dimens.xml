@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">36dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <!--<dimen name="fab_margin">16dp</dimen>-->
+    <dimen name="splash_header">40sp</dimen>
+    <dimen name="splash_header_description">20sp</dimen>
+
+    <dimen name="navbar_header">32sp</dimen>
+    <dimen name="navbar_subheader">14sp</dimen>
+
+    <dimen name="login_textfield">20sp</dimen>
+    <dimen name="login_button">20sp</dimen>
+    <dimen name="login_button_length">150dp</dimen>
+    <dimen name="login_button_round">30dp</dimen>
+    <dimen name="admin_dir_header">24sp</dimen>
+
+    <dimen name="book_header">45sp</dimen>
+    <dimen name="book_room">30sp</dimen>
+    <dimen name="book_btn">30sp</dimen>
+    <dimen name="details_text">25sp</dimen>
+    <dimen name="details_header_text">40sp</dimen>
+    <dimen name="details_submit_width">180dp</dimen>
+    <dimen name="marginStart_btn">80dp</dimen>
+
+
+    <dimen name="pick_time_label">50sp</dimen>
+    <dimen name="pick_time_btn_width">150dp</dimen>
+    <dimen name="pick_time_text">32sp</dimen>
+    <dimen name="pick_time_header">60sp</dimen>
+    <dimen name="time_slot_padding">16dp</dimen>
+    <dimen name="time_slot_text_size">24sp</dimen>
+    <dimen name="time_slot_description_size">20sp</dimen>
+    <dimen name="recycler_margin_top">4dp</dimen>
+    <dimen name="editTextSpacing">16dp</dimen>
+</resources>

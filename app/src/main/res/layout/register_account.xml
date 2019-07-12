@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_round_corner"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/editTextSpacing"
+                app:layout_constraintEnd_toEndOf="@+id/constraintLayout3"
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/usernameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/editTextSpacing"
+                android:textColorHint="@android:color/white"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:counterTextAppearance="@style/HintText"
+                app:hintTextAppearance="@style/HintText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView">
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:hint="ENTER YOUR USERNAME"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/companyLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/editTextSpacing"
+                android:hint="ENTER COMPANY NAME"
+                android:textColorHint="@android:color/white"
+                app:counterEnabled="true"
+                app:counterTextAppearance="@style/InvisibileHint"
+                app:hintTextAppearance="@style/HintText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/usernameLayout">
+
+                <AutoCompleteTextView
+                    android:id="@+id/companyInfo"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:dropDownWidth="350dp"
+                    android:dropDownHeight="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="18sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/passwordLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/editTextSpacing"
+                android:textColorHint="@android:color/white"
+                app:counterEnabled="true"
+                app:counterTextAppearance="@style/InvisibileHint"
+                app:hintTextAppearance="@style/HintText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/companyLayout">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:hint="ENTER A PASSWORD"
+                    android:inputType="textVisiblePassword"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmPasswordLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/editTextSpacing"
+                android:textColorHint="@android:color/white"
+                app:counterEnabled="true"
+                app:counterTextAppearance="@style/InvisibileHint"
+                app:hintTextAppearance="@style/HintText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordLayout">
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:hint="CONFIRM PASSWORD"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="@dimen/login_button_length"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="@dimen/editTextSpacing"
+                android:background="@drawable/proceed_btn"
+                android:enabled="false"
+                android:fontFamily="@font/acme"
+                android:text="@string/acc_register"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/login_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirmPasswordLayout" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pop_up_view"
+    android:background="@drawable/pop_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ivconference2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dummy1"
+        android:scaleType="centerCrop"/>
+
+</android.support.constraint.ConstraintLayout>
+
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/pop_up_view"-->
+    <!--android:background="@drawable/pop_bg"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivconference2"-->
+        <!--android:layout_width="903dp"-->
+        <!--android:layout_height="350dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.504"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:srcCompat="@drawable/dummy1" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvdetails"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="6dp"-->
+        <!--android:fontFamily="@font/acme"-->
+        <!--android:text="Details about room"-->
+        <!--android:textColor="#491E37"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/ivconference2" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvcapacity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="200dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:fontFamily="@font/acme"-->
+        <!--android:text="Capacity :"-->
+        <!--android:textColor="#491E37"-->
+        <!--android:textSize="25sp"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/ivconference2"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tvdetails" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvcapacityval"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="12dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:fontFamily="@font/acme"-->
+        <!--android:text="4"-->
+        <!--android:textColor="#491E37"-->
+        <!--android:textSize="25sp"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/tvcapacity"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tvdetails" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvprojector"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginEnd="12dp"-->
+        <!--android:fontFamily="@font/acme"-->
+        <!--android:text="Projector :"-->
+        <!--android:textColor="#491E37"-->
+        <!--android:textSize="25sp"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/tvprojectorval"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tvdetails" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvprojectorval"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginEnd="200dp"-->
+        <!--android:fontFamily="@font/acme"-->
+        <!--android:text="Yes"-->
+        <!--android:textColor="#491E37"-->
+        <!--android:textSize="25sp"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/ivconference2"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tvdetails"-->
+        <!--tools:text="Yes" />-->
+<!--</android.support.constraint.ConstraintLayout>-->

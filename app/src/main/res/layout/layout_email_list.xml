@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3098BE"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:hint="example@pdsinternational.in"
+        android:textColorHint="@android:color/white"/>
+
+</LinearLayout>

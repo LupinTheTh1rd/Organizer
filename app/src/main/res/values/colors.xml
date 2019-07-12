@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#1262A0</color>
+    <color name="colorPrimaryDark">#0F2D44</color>
+    <color name="colorAccent">#0F2D44</color>
+    <color name="colorTrans">#1262A0</color>
+    <color name="colorPress">#FFFFFF</color>
+    <color name="nav_bar_main">#eceff1</color>
+    <color name="colorPlaceholder">#D3D3D3</color>
+    <color name="bookedSlot">#DCDCDC</color>
+    <color name="availableText">#005500</color>
+    <color name="bookedText">#860000</color>
+    <color name="selectedSlot">#DCDCDC</color>
+    <color name="notPickedRoom">#A9A9A9</color>
+    <color name="snackbarColor">#D81B60</color>
+</resources>
